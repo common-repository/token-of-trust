@@ -1,0 +1,532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Token of Trust\n"
+"POT-Creation-Date: 2020-06-14 12:33-0500\n"
+"PO-Revision-Date: 2020-06-15 16:16-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: token-of-trust.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/plugin-page-action-links.php:8
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: admin/settings-page/fields.php:29
+#, fuzzy
+msgid "License & API"
+msgstr "Licence et API"
+
+#: admin/settings-page/fields.php:35
+msgid "Email Confirmation"
+msgstr "Confirmation par Email"
+
+#: admin/settings-page/fields.php:41
+msgid "Verification Gates"
+msgstr "Portes de Vérification"
+
+#: admin/settings-page/fields.php:48
+msgid "User Approval"
+msgstr "Approbation des Utilisateurs"
+
+#: admin/settings-page/fields.php:54
+msgid "User Tracking"
+msgstr "Suivi des Utilisateurs"
+
+#: admin/settings-page/fields.php:63
+msgid "Live Site Domain<sup class=\"tot-required\">*</sup>"
+msgstr ""
+
+#: admin/settings-page/fields.php:76
+msgid "License Key<sup class=\"tot-required\">*</sup>"
+msgstr ""
+
+#: admin/settings-page/fields.php:89
+#, fuzzy
+msgid "Confirm New User Emails"
+msgstr "Confirmer les e-mails des nouveaux utilisateurs"
+
+#: admin/settings-page/fields.php:102
+#, fuzzy
+msgid "Confirm Email Success Redirect"
+msgstr "Confirmer la réussite de la redirection des courriels"
+
+#: admin/settings-page/fields.php:115
+msgid "Debug Mode"
+msgstr "Mode de Développement"
+
+#: admin/settings-page/fields.php:129
+#, fuzzy
+msgid "Enable Verifications by Page."
+msgstr "Activer les vérifications par page."
+
+#: admin/settings-page/fields.php:143
+#, fuzzy
+msgid "Allow admins to manually approve users."
+msgstr ""
+"Permettre aux administrateurs d'approuver manuellement les utilisateurs."
+
+#: admin/settings-page/fields.php:156
+msgid "Role for approved users"
+msgstr ""
+
+#: admin/settings-page/fields.php:169
+msgid "Role for rejected users"
+msgstr ""
+
+#: admin/settings-page/fields.php:182
+msgid "Role for pending users"
+msgstr ""
+
+#: admin/settings-page/fields.php:209
+#, fuzzy
+msgid "Identify user"
+msgstr "Identifier l'utilisateur"
+
+#: admin/settings-page/view-settings.php:9
+msgid "Settings Saved"
+msgstr "Paramètres sauvegardés"
+
+#: admin/user-approval.php:30
+msgctxt "no user roles"
+msgid "None"
+msgstr "Aucun"
+
+#: integrations/buddypress/buddypress.php:61
+msgid "Token of Trust Settings"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:70
+#: integrations/ultimate-member/um_settings_menu.php:49
+msgid "Token of Trust Verification Tab"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:88
+#: integrations/ultimate-member/um_settings_menu.php:91
+msgid "Token of Trust Report Abuse Button"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:116
+msgid "Token of Trust Plugin settings"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:127
+msgid "Show Token of Trust Verification tab on users profiles"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:128
+#, fuzzy
+msgid ""
+"If selected, the Token of Trust Reputation Summary widget will show on the "
+"users' profile, in a new tab"
+msgstr ""
+"S'il est sélectionné, le widget Token of Trust Reputation Summary apparaîtra "
+"sur le profil de l'utilisateur, dans un nouvel onglet"
+
+#: integrations/buddypress/buddypress.php:136
+#, fuzzy
+msgid "Show Token of Trust Report Abuse widget on users profiles"
+msgstr ""
+"Afficher le widget \"Token of Trust Report Abuse\" sur les profils des "
+"utilisateurs"
+
+#: integrations/buddypress/buddypress.php:137
+#, fuzzy
+msgid ""
+"If selected, the Token of Trust Report Abuse widget will show on the users' "
+"profile"
+msgstr ""
+"Si cette option est sélectionnée, le widget \"Token of Trust Report Abuse\" "
+"apparaîtra sur le profil de l'utilisateur"
+
+#: integrations/ultimate-member/um_settings_menu.php:34
+msgid "Profile Page"
+msgstr "Page de Profil"
+
+#: integrations/ultimate-member/um_settings_menu.php:41
+msgid "Account Page"
+msgstr "Page du Compte"
+
+#: integrations/ultimate-member/um_settings_menu.php:57
+#, fuzzy
+msgid "Who can see Verification Tab?"
+msgstr "Qui peut voir l'onglet de vérification ?"
+
+#: integrations/ultimate-member/um_settings_menu.php:66
+msgid "Allowed Roles"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:99
+msgid "Verification tab in menu"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:108
+msgid "Verified Indicator"
+msgstr "Indicateur Vérifié"
+
+#: integrations/ultimate-member/um_settings_menu.php:141
+#, fuzzy
+msgid ""
+"The Ultimate Member account settings page (.../account/) can be set to "
+"include Token of Trust's 'account connector' component."
+msgstr ""
+"La page des paramètres du compte du membre final (.../compte/) peut être "
+"configurée de manière à inclure le composant \"connecteur de compte\" de "
+"Token of Trust."
+
+#: integrations/ultimate-member/um_settings_menu.php:149
+#, fuzzy
+msgid ""
+"You can enable and control Token of Trust on Ultimate Member's profile pages"
+msgstr ""
+"Vous pouvez activer et contrôler le jeton de confiance sur les pages de "
+"profil du membre final"
+
+#: integrations/woocommerce/class-admin.php:35
+msgid "Identity Verification"
+msgstr "Vérification d’identité"
+
+#: integrations/woocommerce/class-admin.php:45
+#, fuzzy
+#| msgid "Order is Awaiting Verification Review"
+msgid "Order is Awaiting Verification"
+msgstr "Ordre en Attente de Révision"
+
+#: integrations/woocommerce/class-admin.php:135
+msgid "View Receipt"
+msgstr "Voir le Reçu"
+
+#: integrations/woocommerce/class-admin.php:145
+msgid "This order is awaiting verification."
+msgstr "Cette ordre est en attente de révision."
+
+#: integrations/woocommerce/class-admin.php:148
+msgid "View Details"
+msgstr "Voir les Détails"
+
+#: integrations/woocommerce/class-admin.php:152
+msgid "Remove Verification Hold"
+msgstr "Supprimer l'attente de Vérification"
+
+#: integrations/woocommerce/class-admin.php:183
+msgid "Verification Hold manually removed by "
+msgstr "Vérification Retrait manuel de la retenue par "
+
+#: integrations/woocommerce/class-checkout.php:168
+msgid "Thank you for being a valued customer! Your order has been submitted."
+msgstr "Merci d'être un client apprécié ! Votre commande a été soumise."
+
+#: integrations/woocommerce/class-checkout.php:196
+msgid "Verification has been submitted and is under review"
+msgstr "La vérification a été soumise et est en cours d'examen"
+
+#: integrations/woocommerce/class-checkout.php:210
+#: integrations/woocommerce/class-checkout.php:918
+#: shared/shortcode-tot-reputation-status.php:81
+msgid "Verification"
+msgstr "Vérification"
+
+#: integrations/woocommerce/class-checkout.php:212
+msgid " is required before we can ship your order"
+msgstr " est nécessaire avant que nous puissions expédier votre commande"
+
+#: integrations/woocommerce/class-checkout.php:310
+#: integrations/woocommerce/class-checkout.php:337
+msgctxt "Order status"
+msgid "Awaiting Verification"
+msgstr "Attente de Vérification"
+
+#: integrations/woocommerce/class-checkout.php:315
+#, php-format
+msgid "Awaiting Verification <span class=\"count\">(%s)</span>"
+msgid_plural "Awaiting Verification <span class=\"count\">(%s)</span>"
+msgstr[0] "Attente de Vérification <span class=\"count\">(%s)</span>"
+msgstr[1] "Attente de Vérification <span class=\"count\">(%s)</span>"
+
+#: integrations/woocommerce/class-checkout.php:321
+msgctxt "Order status"
+msgid "Please Review"
+msgstr "Veuillez Revoir"
+
+#: integrations/woocommerce/class-checkout.php:326
+#, php-format
+msgid "Ready for Review <span class=\"count\">(%s)</span>"
+msgid_plural "Ready for Review <span class=\"count\">(%s)</span>"
+msgstr[0] "Prêt pour Examen <span class=\"count\">(%s)</span>"
+msgstr[1] "Prêt pour Examen <span class=\"count\">(%s)</span>"
+
+#: integrations/woocommerce/class-checkout.php:338
+msgctxt "Order status"
+msgid "Ready for Review"
+msgstr "Prêt pour Examen"
+
+#: integrations/woocommerce/class-checkout.php:694
+msgid "Awaiting verification."
+msgstr "Attente de vérification."
+
+#: integrations/woocommerce/class-checkout.php:701
+msgid "Updating order status from verification result"
+msgstr ""
+"Mise à jour du statut de la commande à partir du résultat de la vérification"
+
+#: integrations/woocommerce/class-checkout.php:919
+msgid "This order requires verification using Token of Trust."
+msgstr "Cet ordre doit être vérifié à l’aide de Token of Trust."
+
+#: integrations/woocommerce/class-checkout.php:925
+msgid "I agree to share information with Token of Trust"
+msgstr "J'accepte de partager des informations avec Token of Trust"
+
+#: integrations/woocommerce/class-checkout.php:948
+msgid "<strong>Verification</strong> is required."
+msgstr "<strong>Vérification</strong> est nécessaire."
+
+#: integrations/woocommerce/class-checkout.php:961
+msgid "Order white-listed. Skipping Token of Trust verification."
+msgstr ""
+"Commandez sur liste blanche. Sauter la vérification du jeton de confiance."
+
+#: integrations/woocommerce/class-checkout.php:979
+msgid "Customer submitted verification. Order is ready for review."
+msgstr ""
+"Le client a soumis une vérification. La commande est prête à être examinée."
+
+#: integrations/woocommerce/class-checkout.php:991
+#: integrations/woocommerce/class-checkout.php:1009
+msgid "Order verified by admin review."
+msgstr "Ordre vérifié par l'administration."
+
+#: integrations/woocommerce/class-checkout.php:1018
+msgid "Order verified by Token of Trust review."
+msgstr "Commande vérifiée par l'examen de Token of Trust."
+
+#: integrations/woocommerce/class-checkout.php:1029
+msgid "Payment processing complete. Order requires verification."
+msgstr "Le traitement du paiement est terminé. La commande doit être vérifiée."
+
+#: integrations/woocommerce/class-checkout.php:1060
+msgid "Age did not pass verification from the information given."
+msgstr "L'âge n'a pas été vérifié à partir des informations fournies."
+
+#: integrations/woocommerce/class-checkout.php:1070
+msgid "Minimum age cannot be determined from the information given."
+msgstr ""
+"L'âge minimum ne peut être déterminé à partir des informations fournies."
+
+#: integrations/woocommerce/class-checkout.php:1082
+#: integrations/woocommerce/class-checkout.php:1095
+msgid "Age is at least "
+msgstr "L'âge est au moins "
+
+#: integrations/woocommerce/class-checkout.php:1084
+msgid " or older, but required age is "
+msgstr " ou plus, mais l'âge requis est de "
+
+#: integrations/woocommerce/class-checkout.php:1097
+msgid " or older, required age is "
+msgstr " ou plus, l'âge requis est de "
+
+#: integrations/woocommerce/class-checkout.php:1202
+msgid "Automatically updating status from webhook."
+msgstr "Mise à jour automatique du statut à partir du webhook."
+
+#: integrations/woocommerce/class-checkout.php:1215
+msgid "Automatically removing age verification hold because: "
+msgstr ""
+"Suppression automatique de la retenue pour la vérification de l'âge car "
+
+#: integrations/woocommerce/class-checkout.php:1217
+msgid "Automatically removing verification hold because: "
+msgstr "Suppression automatique de la retenue de vérification parce que "
+
+#: integrations/woocommerce/class-checkout.php:1221
+msgid "Age verified: "
+msgstr "Âge vérifié "
+
+#: integrations/woocommerce/class-settings.php:161
+#, fuzzy
+msgid "Order Verification"
+msgstr "Vérification de la commande"
+
+#: integrations/woocommerce/class-settings.php:167
+#, fuzzy
+msgid "Enable checkout verification"
+msgstr "Activer la vérification de la caisse"
+
+#: integrations/woocommerce/class-settings.php:171
+#, fuzzy
+msgid ""
+"Advanced: To test without enabling for your entire site, copy this link, "
+"paste into a new incognito window and go through the checkout process. That "
+"incognito session will behave as if checkout verification is active for "
+"about 30 minutes: : "
+msgstr ""
+"Avancé : Pour tester sans activer pour l'ensemble de votre site, copiez ce "
+"lien, collez-le dans une nouvelle fenêtre incognito et passez à la caisse. "
+"Cette session incognito se déroulera comme si la vérification de la caisse "
+"était active pendant environ 30 minutes : "
+
+#: integrations/woocommerce/class-settings.php:177
+msgid "Orders Considered for Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:178
+msgid ""
+"Orders matching ANY of these conditions are considered for verification."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:183
+msgid "Minimum order amount"
+msgstr "Montant minimum de commande"
+
+#: integrations/woocommerce/class-settings.php:187
+#, fuzzy
+msgid "Example: 4.00"
+msgstr "Exemple : 4.00"
+
+#: integrations/woocommerce/class-settings.php:188
+#, fuzzy
+msgid "Always require verification for orders that are more than this amount. Specify '0' for all orders."
+msgstr "Exigez une vérification pour les commandes supérieures à ce montant."
+
+#: integrations/woocommerce/class-settings.php:196
+msgid "Categories"
+msgstr "Catégories"
+
+#: integrations/woocommerce/class-settings.php:200
+#, fuzzy
+msgid ""
+"Require verification for orders containing a product with any of these "
+"categories."
+msgstr ""
+"Exiger une vérification pour les commandes contenant un produit appartenant "
+"à l'une de ces catégories."
+
+#: integrations/woocommerce/class-settings.php:208
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: integrations/woocommerce/class-settings.php:212
+#, fuzzy
+msgid ""
+"Require verification for orders containing a product with any of these tags."
+msgstr ""
+"Exiger une vérification pour les commandes contenant un produit portant "
+"l'une de ces étiquettes."
+
+#: integrations/woocommerce/class-settings.php:219
+msgid "Order Verification Requirements"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:220
+msgid ""
+"Leave these fields alone to verify all \"Orders Considered for Verification"
+"\" above. Add criteria below to limit considered orders to only those "
+"meeting these requirements."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:225
+#, fuzzy
+msgid "Payment Methods Requiring Verification"
+msgstr "Modes de paiement nécessitant une vérification"
+
+#: integrations/woocommerce/class-settings.php:229
+#, fuzzy
+msgid ""
+"Require verification for orders using these payment methods. Leave empty to "
+"accept all current and future payment methods."
+msgstr ""
+"Exigez une vérification pour les commandes utilisant ces modes de paiement. "
+"Laissez vide pour accepter tous les modes de paiement actuels et futurs."
+
+#: integrations/woocommerce/class-settings.php:236
+#, fuzzy
+msgid "Verification results"
+msgstr "Résultats des vérifications"
+
+#: integrations/woocommerce/class-settings.php:242
+msgid "Minimum age"
+msgstr "Âge minimum"
+
+#: integrations/woocommerce/class-settings.php:246
+#, fuzzy
+msgid "Accept orders when the verified age is greater than this."
+msgstr ""
+"Acceptez les commandes lorsque l'âge vérifié est supérieur à cette limite."
+
+#: integrations/woocommerce/class-settings.php:253
+msgid "(Advanced) Admin Review no override."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:257
+#, fuzzy
+msgid ""
+"When checked Admin Review of IDs means that documents (e.g. govt ID) are "
+"approved but other rules (e.g. age) are still verified independently to "
+"determine if the order can automatically move out of \"Awaiting Verification"
+"\"."
+msgstr ""
+"Lorsqu'il est contrôlé, l'examen administratif des pièces d'identité "
+"signifie que les documents (par exemple, la carte d'identité du "
+"gouvernement) sont approuvés mais que d'autres règles (par exemple, l'âge) "
+"sont encore vérifiées de manière indépendante pour déterminer si l'ordre "
+"peut automatiquement sortir de la catégorie \"En attente de vérification\"."
+
+#: shared/shortcode-tot-reputation-status.php:83
+msgid " is required before you can proceed."
+msgstr " est nécessaire avant que vous puissiez procéder."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Token of Trust"
+msgstr "Token of Trust"
+
+#. Description of the plugin/theme
+msgid ""
+"With the Token of Trust® ID Verification plugin for WordPress and "
+"WooCommerce, you can quickly connect to the most powerful identity "
+"verification platform in the world. Easily add a reusable age verification "
+"and identity verification process to any WordPress website or WooCommerce "
+"checkout to comply with the law and keep your customer's data safe."
+msgstr ""
+"Avec le plugin Token of Trust® ID Verification pour WordPress et "
+"WooCommerce, vous pouvez vous connecter rapidement à la plus puissante "
+"plateforme de vérification d'identité au monde. Ajoutez facilement un "
+"processus réutilisable de vérification de l'âge et de l'identité à tout site "
+"Web WordPress ou WooCommerce pour vous conformer à la loi et protéger les "
+"données de vos clients."
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://tokenoftrust.com"
+msgstr "https://tokenoftrust.com"
+
+#~ msgid "."
+#~ msgstr "."
+
+#, fuzzy
+#~ msgid "Awaiting verification review."
+#~ msgstr "En attente d'un examen de vérification."
+
+#, fuzzy
+#~ msgid ""
+#~ "Orders considered go through verification if they meet these "
+#~ "requirements. Leave these fields alone to verify all \"Orders Considered "
+#~ "for Verification\" above."
+#~ msgstr ""
+#~ "Les commandes examinées font l'objet d'une vérification si elles "
+#~ "répondent à ces exigences. Laissez ces champs libres pour vérifier toutes "
+#~ "les \"commandes considérées pour vérification\" ci-dessus."

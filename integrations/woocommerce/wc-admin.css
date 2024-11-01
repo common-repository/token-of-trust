@@ -1,0 +1,87 @@
+#tot_order_detail_quarantine_meta_box_display {
+    background: #d7cad2;
+}
+
+#tot_order_detail_quarantine_meta_box_display.postbox .hndle,
+#tot_order_detail_quarantine_meta_box_display.stuffbox .hndle {
+    border-bottom-color: #b9acb4;
+}
+
+.tot-meta-box-actions,
+.tot-meta-box-actions li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tot-meta-box-actions {
+    border-top: 1px solid #b9acb4;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: -12px;
+    padding: 6px 12px 6px 12px;
+}
+
+.tot-meta-box-actions li {
+    display: inline-block;
+}
+
+.tot-meta-box-actions .tot-meta-box-actions-right {
+    float: right;
+}
+
+.tot-meta-box-actions:after {
+    display: block;
+    content: '';
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.tot-button-loading {
+    position: relative;
+    pointer-events: none;
+    cursor: default;
+}
+
+.tot-button-loading:after {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, .5);
+    border-radius: inherit;
+}
+
+.tot-button-loading .spinner {
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+#tot_order_detail_verification_details_meta_box [data-tot-widget] iframe {
+    margin: 20px 0;
+}
+
+label .tot_field_number_to_radio {
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 1px solid #111;
+    padding-right: 0;
+    width: 60px;
+    outline: 0px;
+}
+label .tot_field_number_to_radio:focus{
+    border-bottom: 1px solid #2271b1;
+    box-shadow: 0 1px 0px 0px #2271b1;;
+}
+label .tot_field_number_to_radio::-webkit-inner-spin-button,
+label .tot_field_number_to_radio::-webkit-outer-spin-button {
+    opacity: 1;
+}

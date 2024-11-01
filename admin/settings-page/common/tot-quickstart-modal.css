@@ -1,0 +1,63 @@
+
+.tot-modaloverlay {
+    display: none; /* set this to 'none' once testing is over */
+    position: fixed;
+    z-index: 13;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.tot-modalcontent {
+    position: relative; /* Relative to the modal overlay */
+    background-color: #f9fffc;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #479D7B;
+    width: 50%;
+    z-index: 14; /* Higher z-index than overlay */
+    border-radius: 20px;
+}
+
+
+/* Add some styling to the header, body and footer */
+.tot-modalheader, .tot-modalbody, .tot-modalfooter {
+    padding: 20px;
+    text-align: center;
+}
+.tot-modalheader {
+    position: relative;  /* Makes it a positioning parent */
+    border-radius: 5px;
+}
+
+.tot-modalfooter {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Testimonial Carousel */
+.tot-quickstart-page .tot-testimonial-carousel {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    height: 150px;
+    position: relative; /* NEW: set position to relative */
+}
+
+.tot-quickstart-page .tot-testimonial {
+    text-align: center;
+    opacity: 0; /* initially hidden */
+    transition: opacity 0.4s ease-in-out; /* NEW: adding transition */
+    position: absolute; /* NEW: same position */
+    left: 50%; /* NEW: horizontally center */
+    transform: translateX(-50%); /* NEW: adjust for center */
+    width: 100%; /* NEW: take full width */
+}
+
+.tot-quickstart-page .tot-testimonial.active {
+    opacity: 1; /* fully visible */
+}

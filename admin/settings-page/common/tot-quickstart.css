@@ -1,0 +1,386 @@
+/* Make the column headers fancier */
+/* Removed the .tot-header class since h2 will take this styling */
+.tot-wrap {
+    margin: 20px;
+}
+
+.tot-quickstart-page h2 {
+    background-color: #58AF9A;
+    color: #f9fffc;
+    border: 1px solid #58AF9A;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+
+.tot-quickstart-page li {
+    list-style-type: disc; /* Add bullet points */
+    font-size: 1.5em;       /* 50% larger font size */
+    line-height: 1.3em;     /* Appropriate line spacing */
+    margin-left: 120px;
+    text-align: left;
+}
+
+/* Base .tot-icon style that will apply to both h2 and h3 */
+.tot-quickstart-page .tot-icon::before {
+    content: '';
+    display: inline-block;
+    background-image: url('../icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    vertical-align: middle;
+    filter: invert(100%);
+}
+
+/* Specific sizes for h2 and h3 headings */
+.tot-quickstart-page h2.tot-icon::before {
+    width: calc(1em + 0.2em);  /* 1.2em based on 1.2 line-height */
+    height: calc(1em + 0.2em); /* 1.2em based on 1.2 line-height */
+}
+
+.tot-quickstart-page h3.tot-icon::before {
+    width: calc(1em + 0.1em);  /* 1.1em based on 1.2 line-height */
+    height: calc(1em + 0.1em); /* 1.1em based on 1.2 line-height */
+}
+
+
+/* Make p, h2, h3, input, and label bigger */
+.tot-quickstart-page p {
+    font-size: 1.5em; /* 150% of original */
+    padding: 15px; /* 150% of original */
+    margin: 15px 0; /* 150% of original */
+    line-height: 1.2; /* Introduced line-height for better text spacing */
+}
+
+.tot-quickstart-page h2,
+.tot-quickstart-page h3 {
+    font-size: 2.25em; /* 150% of original */
+    padding: 15px; /* 150% of original */
+    margin: 15px 0; /* 150% of original */
+    line-height: 1.2; /* Introduced line-height for better text spacing */
+}
+
+.tot-quickstart-page input[type="text"].tot-min-age-input {
+    font-size: 1.5em; /* 150% of original */
+    margin: 10px 0; /* 150% of original */
+    line-height: 1.2; /* Introduced line-height for better text spacing */
+}
+
+.tot-quickstart-page label {
+    font-size: 1.5em; /* 150% of original */
+    padding: 5px; /* 150% of original */
+    margin: 5px 0; /* 150% of original */
+    line-height: 1.2; /* Introduced line-height for better text spacing */
+}
+
+
+/* Column background */
+.tot-quickstart-page .tot-left-col,
+.tot-quickstart-page .tot-right-col {
+    background-color: #f0f5f3;
+    border: 1px solid #479D7B;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Add padding to make the text likely to wrap */
+.tot-quickstart-page .tot-wrap {
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.tot-quickstart-page .tot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tot-quickstart-page .tot-left-col,
+.tot-quickstart-page .tot-right-col {
+    width: 48%;
+    text-align: center;
+}
+
+.tot-quickstart-page .tot-right-col > *,
+.tot-quickstart-page .tot-left-col > * {
+    margin-bottom: 20px;
+}
+
+/* Slider Toggle Styling */
+
+/* Hide the actual checkbox */
+.tot-quickstart-page input[type="checkbox"].toggle {
+    display: none;
+}
+
+.tot-quickstart-page .tot-switch {
+    position: relative;
+    display: inline-block;
+    height: 51px;  /* 1.5x original height */
+}
+
+.tot-quickstart-page .tot-slider-container {
+    position: relative;
+    cursor: pointer;
+    width: 168px;  /* 2x original width */
+    height: 51px;  /* 1.5x original height */
+    overflow: hidden;
+    border-radius: 50px;
+    background-color: #e0e0e0;
+    margin-top: 20px;
+    z-index: 2;
+}
+
+.tot-quickstart-page .tot-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 84px;  /* 2x original width */
+    height: 51px;  /* 1.5x original height */
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 51px;  /* 1.5x original line-height */
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.tot-quickstart-page .tot-slider.on {
+    background-color: green;
+    transform: translateX(100%);
+}
+
+.tot-quickstart-page .tot-slider.off {
+    background-color: gray;
+    transform: translateX(0%);
+}
+
+
+.tot-quickstart-page input:checked + .tot-slider {
+    background-color: green;
+}
+
+.tot-quickstart-page input:checked + .tot-slider:before {
+    transform: translateX(26px);
+}
+
+.tot-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.4s;
+}
+
+.tot-quickstart-page .tot-slider-container.on {
+    background-color: #e0e0e0;
+}
+
+.tot-quickstart-page .tot-slider-container.off {
+    background-color: #cccccc;
+}
+
+.tot-quickstart-page .tot-slider-container.on .tot-slider {
+    background-color: green;
+    transform: translateX(100%);
+}
+
+.tot-quickstart-page .tot-slider-container.off .tot-slider {
+    background-color: gray;
+    transform: translateX(0);
+}
+
+/* Slider Toggle Styling */
+.tot-quickstart-page .tot-fixed-label {
+    position: absolute;
+    color: #7e7e7e;
+    top: 0;
+    bottom: 0; /* Add this */
+    left: 0;   /* Add this */
+    right: 0;  /* Add this */
+    margin: auto; /* Add this */
+    line-height: 34px;
+    pointer-events: none;
+    font-size: 1.5em; /* Reduced from 2em */
+    display: flex;        /* NEW: use flexbox */
+    align-items: center;  /* NEW: center vertically */
+    justify-content: center; /* NEW: center horizontally */
+}
+
+.tot-quickstart-page .tot-fixed-label.on {
+    left: 10px;
+    right: auto; /* Add this to override the above right:0; */
+    transform: translateX(50%); /* NEW: adjust for exact center */
+}
+
+.tot-quickstart-page .tot-fixed-label.off {
+    right: 10px;
+    left: auto;  /* Add this to override the above left:0; */
+    transform: translateX(-50%); /* NEW: adjust for exact center */
+}
+
+/* CTA Buttons */
+.tot-quickstart-page .tot-cta-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tot-quickstart-page .tot-min-age-input {
+    width: 40px;  /* Width sufficient for two digits */
+    text-align: center;  /* Center the content */
+}
+
+
+.tot-close-btn {
+    position: absolute;  /* Takes it out of the normal layout */
+    right: 10px;         /* Pins it to the right */
+    top: 10px;           /* Pins it to the top */
+    cursor: pointer;     /* Makes it obvious it’s clickable */
+    font-size: 24px;     /* Makes the 'x' a bit larger */
+    line-height: 1;      /* Tightens up the dimensions */
+    z-index: 15;         /* Makes sure it's above other items */
+}
+
+/* CTA buttons in the footer */
+.tot-cta {
+    display: inline-block;
+    margin: 10px;
+}
+
+.tot-cta-button.primary {
+    background-color: #2196F3;
+    color: white;
+}
+
+.tot-cta-button.secondary {
+    background-color: grey;
+    color: white;
+}
+
+/* Styling for the price under the button */
+.tot-price-under-button {
+    margin-top: 10px; /* Add some space between the button and the price */
+    font-size: 1.2em; /* You can adjust this */
+    text-align: center; /* Center align text */
+}
+
+.tot-btn-price-wrapper {
+    margin-right: 10px; /* Or adjust this according to your needs */
+}
+
+
+.tot-help-tip {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #A7A7A7;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 26px;
+    cursor: default;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.tot-help-tip.tot-help-tip-large {
+    width: 35px;
+    height: 35px;
+    font-size: 23px;
+    line-height: 33px;
+}
+
+.tot-help-tip:hover {
+    cursor: pointer;
+    background-color: #555555;
+}
+
+.tot-help-tip:before {
+    content: '?';
+    font-weight: 700;
+    color: #fff;
+}
+
+.tot-help-tip p {
+    visibility: hidden;
+    z-index: 999;
+    opacity: 0;
+    text-align: left;
+    background-color: #E3F2FD;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid #BBDEFB;
+    right: -4px;
+    color: #333333;
+    font-size: 13px;
+    line-height: normal;
+    transform: scale(0.7);
+    transform-origin: 100% 0%;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.tot-help-tip.tot-help-tip-right p {
+    left: calc(100% + 10px);
+    margin: 0;
+    top: 50%;
+    transform: translate(0, -50%) scale(0.7);
+}
+
+.tot-help-tip:hover p {
+    cursor: default;
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1.0);
+}
+
+.tot-help-tip.tot-help-tip-right:hover p{
+    transform: translate(0, -50%) scale(1.0);
+}
+
+.tot-help-tip p:before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom-color: #039be5;
+    right: 10px;
+    top: -12px;
+}
+.tot-help-tip.tot-help-tip-right p:before {
+    border-right-color: #039be5;
+    border-bottom-color: transparent;
+    left: -12px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.tot-help-tip p > a {
+    color: #2271b1;
+    font-weight: 700;
+}
+
+.tot-help-tip a:hover, .tot-help-tip a:focus {
+    text-decoration: underline;
+}

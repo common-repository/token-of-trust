@@ -1,0 +1,651 @@
+# Copyright (C) 2023 Token of Trust
+# This file is distributed under the same license as the Token of Trust plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Token of Trust 1.6.27\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-31T05:06:30+03:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "Token of Trust"
+msgstr ""
+
+#. Description of the plugin
+msgid "With the Token of Trust® ID Verification plugin for WordPress and WooCommerce, you can quickly connect to the most powerful identity verification platform in the world. Easily add a reusable age verification and identity verification process to any WordPress website or WooCommerce checkout to comply with the law and keep your customer's data safe."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tokenoftrust.com"
+msgstr ""
+
+#: admin/plugin-page-action-links.php:8
+msgid "General Settings"
+msgstr ""
+
+#: admin/settings-page/fields.php:29
+msgid "License & API"
+msgstr ""
+
+#: admin/settings-page/fields.php:35
+msgid "Email Confirmation"
+msgstr ""
+
+#: admin/settings-page/fields.php:41
+msgid "Verification Gates"
+msgstr ""
+
+#: admin/settings-page/fields.php:48
+msgid "User Approval"
+msgstr ""
+
+#: admin/settings-page/fields.php:54
+msgid "User Tracking"
+msgstr ""
+
+#: admin/settings-page/fields.php:61
+msgid "Disabled Pages"
+msgstr ""
+
+#: admin/settings-page/fields.php:70
+msgid "Disable on Home Page"
+msgstr ""
+
+#: admin/settings-page/fields.php:83
+msgid "Live Site Domain<sup class=\"tot-required\">*</sup>"
+msgstr ""
+
+#: admin/settings-page/fields.php:96
+msgid "License Key<sup class=\"tot-required\">*</sup>"
+msgstr ""
+
+#: admin/settings-page/fields.php:109
+msgid "Confirm New User Emails"
+msgstr ""
+
+#: admin/settings-page/fields.php:122
+msgid "Confirm Email Success Redirect"
+msgstr ""
+
+#: admin/settings-page/fields.php:135
+msgid "Debug Mode"
+msgstr ""
+
+#: admin/settings-page/fields.php:150
+msgid "Enable Verifications by Page"
+msgstr ""
+
+#: admin/settings-page/fields.php:163
+msgid "Default Setting for Verification on Pages"
+msgstr ""
+
+#: admin/settings-page/fields.php:187
+msgid "Bypass Token of Trust Verification for Pages"
+msgstr ""
+
+#: admin/settings-page/fields.php:200
+msgid "Require Token of Trust Verification for Pages"
+msgstr ""
+
+#: admin/settings-page/fields.php:224
+#: integrations/woocommerce/class-settings.php:318
+msgid "Roles to bypass Token of Trust Verification"
+msgstr ""
+
+#: admin/settings-page/fields.php:238
+msgid "Enable Age Gate"
+msgstr ""
+
+#: admin/settings-page/fields.php:251
+msgid "Allow admin's to manually approve users."
+msgstr ""
+
+#: admin/settings-page/fields.php:264
+msgid "Role for approved users"
+msgstr ""
+
+#: admin/settings-page/fields.php:277
+msgid "Role for rejected users"
+msgstr ""
+
+#: admin/settings-page/fields.php:290
+msgid "Role for pending users"
+msgstr ""
+
+#: admin/settings-page/fields.php:317
+msgid "Identify user"
+msgstr ""
+
+#: admin/settings-page/view-settings.php:9
+msgid "Settings Saved"
+msgstr ""
+
+#: admin/user-approval.php:30
+msgctxt "no user roles"
+msgid "None"
+msgstr ""
+
+#: api/client-api-verify-person.php:167
+msgid "We were unable to process your order, please try again."
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:61
+msgid "Token of Trust Settings"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:70
+#: integrations/ultimate-member/um_settings_menu.php:51
+msgid "Token of Trust Verification Tab"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:88
+#: integrations/ultimate-member/um_settings_menu.php:93
+msgid "Token of Trust Report Abuse Button"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:116
+msgid "Token of Trust Plugin settings"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:127
+msgid "Show Token of Trust Verification tab on users profiles"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:128
+msgid "If selected, the Token of Trust Reputation Summary widget will show on the users' profile, in a new tab"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:136
+msgid "Show Token of Trust Report Abuse widget on users profiles"
+msgstr ""
+
+#: integrations/buddypress/buddypress.php:137
+msgid "If selected, the Token of Trust Report Abuse widget will show on the users' profile"
+msgstr ""
+
+#: integrations/ultimate-member/um_account_page.php:28
+#: integrations/woocommerce/class-admin.php:38
+msgid "Identity Verification"
+msgstr ""
+
+#: integrations/ultimate-member/um_profile_page.php:13
+#: integrations/woocommerce/class-checkout.php:308
+#: integrations/woocommerce/class-checkout.php:1075
+#: shared/shortcode-tot-reputation-status.php:182
+msgid "Verification"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:36
+msgid "Profile Page"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:43
+msgid "Account Page"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:59
+msgid "Who can see Verification Tab?"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:68
+msgid "Allowed Roles"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:101
+msgid "Verification tab in menu"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:110
+msgid "Verified Indicator"
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:143
+msgid "The Ultimate Member account settings page (.../account/) can be set to include Token of Trust's 'account connector' component."
+msgstr ""
+
+#: integrations/ultimate-member/um_settings_menu.php:151
+msgid "You can enable and control Token of Trust on Ultimate Member's profile pages"
+msgstr ""
+
+#: integrations/woocommerce/class-admin.php:48
+msgid "Order is Awaiting Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-admin.php:155
+msgid "View Receipt"
+msgstr ""
+
+#: integrations/woocommerce/class-admin.php:165
+msgid "This order is awaiting verification."
+msgstr ""
+
+#: integrations/woocommerce/class-admin.php:168
+msgid "View Details"
+msgstr ""
+
+#: integrations/woocommerce/class-admin.php:172
+msgid "Remove Verification Hold"
+msgstr ""
+
+#: integrations/woocommerce/class-admin.php:203
+msgid "Verification Hold manually removed by "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:109
+#: integrations/woocommerce/class-checkout.php:131
+#: integrations/woocommerce/class-checkout.php:164
+msgid "Charitable donation"
+msgstr ""
+
+#. translators: %s: the donation value
+#: integrations/woocommerce/class-checkout.php:119
+msgid "Please add a donation of %s to my order for"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:168
+msgid "Charitable donation for"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:262
+msgid "Thank you for being a valued customer! Your order has been submitted."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:286
+msgid "Verification has been submitted and is under review"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:298
+msgid "Verification was not completed for this order."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:310
+msgid " is required before we can ship your order"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:383
+#: integrations/woocommerce/class-checkout.php:409
+msgctxt "Order status"
+msgid "Awaiting Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:388
+msgid "Awaiting Verification <span class=\"count\">(%s)</span>"
+msgid_plural "Awaiting Verification <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: integrations/woocommerce/class-checkout.php:394
+msgctxt "Order status"
+msgid "Please Review"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:399
+msgid "Ready for Review <span class=\"count\">(%s)</span>"
+msgid_plural "Ready for Review <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: integrations/woocommerce/class-checkout.php:410
+msgctxt "Order status"
+msgid "Ready for Review"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:749
+msgid "Awaiting verification."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:751
+msgid "Awaiting verification: "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:755
+msgid "Order cleared."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:757
+msgid "Order cleared: "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:773
+msgid "Updating order status from verification result"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1076
+msgid "This order requires verification using Token of Trust."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1082
+msgid "I agree to share information with Token of Trust"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1174
+msgid "<strong>Verification</strong> is required."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1175
+msgid "Click the checkbox to confirm."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1195
+msgid "Order white-listed. Skipping Token of Trust verification."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1222
+msgid "Order approved by admin review."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1243
+msgid "Order verified by Token of Trust."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1251
+msgid "Order approved by admin."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1259
+msgid "Customer submitted verification. Order is ready for review."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1267
+msgid "Order has been cleared."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1275
+msgid "This order has been rejected."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1290
+msgid "Payment processing complete. Order requires verification."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1321
+msgid "Age did not pass verification from the information given."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1331
+msgid "Minimum age cannot be determined from the information given."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1344
+#: integrations/woocommerce/class-checkout.php:1357
+msgid "Age is at least "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1346
+msgid ", but required age is "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1359
+msgid " and required age is "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1496
+msgid "Automatically updating status from webhook."
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1509
+msgid "Automatically removing age verification hold because: "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1511
+msgid "Automatically removing verification hold because: "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1515
+msgid "Age verified: "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1517
+msgid "Cleared: "
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1907
+msgid "Excise Tax Pending"
+msgstr ""
+
+#: integrations/woocommerce/class-checkout.php:1962
+msgid "No Excise Tax"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:72
+msgid "You've changed your Wordpress host but your Token of Trust API keys are not licensed to run here. Please"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:74
+msgid "Click here"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:75
+msgid "So we can get your license updated"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:84
+msgid "Thank you for installing Token of Trust! "
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:85
+msgid "Get Started Now"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:193
+msgid "Order Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:199
+msgid "Enable checkout verification"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:203
+msgid "Enabling this turns on Token of Trust verification on WooCommerce checkouts. If left unchecked Token of Trust will <i>not be enabled</i> during the WooCommerce checkout process and <i>none</i> of the settings below will take effect. "
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:205
+msgid "<div style=\"font-size:80%; line-height:140%; margin-top:1em;\"><strong>Advanced:</strong> To test without enabling for your entire site, copy this link, paste into a new incognito window and go through the checkout process. Your incognito session will behave as if checkout verification is active for about 30 minutes: "
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:212
+msgid "Verify Before Payment"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:217
+msgid "<strong style=\"color:#164c16;\">Strongly Recommended</strong>. When checked Token of Trust will attempt to attach to the the checkout process before payment. If checkout verification is enabled and this option is not selected Token of Trust will ask for verification on the Thank You / Receipt page - after payment has been collected."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:219
+msgid "<div style=\"font-size:80%; line-height:140%; margin-top:1em;\"><strong>Advanced:</strong> If this is enabled but Token of Trust does not launch on checkout (possible for custom themes) - take a look at the <a href=\"#tot_field_woo_verification_before_payment_selector\">Verification Before Payment (jQuery) Selector</a> in the Advanced section below.</div>"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:226
+msgid "Orders Considered for Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:227
+msgid "Orders matching ANY of these conditions are considered for verification."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:232
+msgid "Minimum order amount"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:236
+msgid "<strong>Example: 4.00</strong> &nbsp; Require verification for orders that are more than this amount (in currency). <code>0</code> will trigger verification on all orders. Leaving this empty means <i>no orders will trigger verification</i>."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:243
+msgid "Categories"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:247
+msgid "Always require verification for orders containing a product with any of these categories."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:255
+msgid "Tags"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:259
+msgid "Always require verification for orders containing a product with any of these tags."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:266
+msgid "Order Verification Requirements"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:267
+msgid "Leave these fields alone to verify all \"Orders Considered for Verification\" above. Add criteria below to limit considered orders to only those meeting these requirements."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:272
+msgid "Payment Methods Requiring Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:276
+msgid "Require verification for orders using these payment methods. Leave empty to accept all current and future payment methods."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:284
+msgid "Shipping Methods Requiring Verification"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:288
+msgid "Require verification for orders using these shipping methods. Leave empty to accept all current and future shipping methods."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:295
+msgid "Verification results"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:301
+msgid "Minimum age"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:305
+msgid "When configured for \"Age Verification\" (check your API key settings or contact support@tokenoftrust.com for assistance) - Accepts orders when the verified age is greater than this."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:312
+msgid "Advanced"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:322
+msgid "When no roles are specified all roles will be required to get verified."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:330
+msgid "Roles that should be treated as ecommerce wholesalers"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:334
+msgid "When no roles are specified all roles will be treated as retailers."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:342
+msgid "Verification Before Payment (jQuery) Selector"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:347
+msgid "The (jQuery style) selector to use to find the elements to bind verification to. The default selector is <strong>#place_order</strong>."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:348
+msgid "<div style=\"font-size:80%; line-height:140%; margin-top:1em;\">Developers and integrators can test their value from the console via <code style=\"font-size:8px;\">$(selectorValue)</code>.</div>"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:356
+msgid "Trigger Verification On Original Button"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:360
+msgid "By default, Token of Trust will clone your store's checkout button in order to implement the verification system. Check this to instead leave the button alone, and trigger the verification system on click of the original button (specified above)"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:361
+msgid "<div style=\"font-size:80%; line-height:140%; margin-top:1em;\">This feature is meant to help Token of Trust play nicely with other plugins. If you are having issues with the Verification modal, try changing this value.</div>"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:369
+msgid "Disable \"Verification Status\""
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:374
+msgid "Checking this will remove the <strong>Verification Status</strong> column from the WooCommerce Orders page."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:382
+msgid "Enable \"Awaiting Verification\" and \"Ready for Review\"."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:387
+msgid "Allows TOT to move orders into custom WooCommerce Statuses \"Awaiting Verification\" and \"Ready for Review\"."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:389
+msgid "<div style=\"font-size:80%; line-height:140%; margin-top:1em;\"><strong style=\"color:#aa1111\">Warning:</strong> this feature can result in unintended behaviors related to your payment gateway as well as incompatibilities with other features and plugins that depend upon WooCommerce Status."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:396
+msgid "Admin Review Can't Override"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:400
+msgid "Checking this means that documents (e.g. govt ID) are approved but other rules (e.g. age) are still verified independently to determine if the order can automatically move out of \"Awaiting Verification\"."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:407
+msgid "Debounce Payment Button"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:412
+msgid "Some payment gateway plugins are vulnerable multiple end-user clicks. Although it is not a Token of Trust problem - this debounce option will stop the 2nd click. Note do not enable unless you're directed to do so because some plugins seem to depend upon this behavior."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:421
+msgid "Round up for Charity"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:426
+msgid "Deactivated."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:427
+msgid "Round up."
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:428
+msgid "Add Flat amount to order"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:436
+msgid "Name of charity:"
+msgstr ""
+
+#: integrations/woocommerce/class-settings.php:446
+msgid "URL of charity:"
+msgstr ""
+
+#: integrations/woocommerce/wc-admin.php:9
+msgid "Verification Status"
+msgstr ""
+
+#: shared/class-api-person.php:310
+msgid "There was a problem trying to setup your verification. "
+msgstr ""
+
+#: shared/class-api-person.php:312
+msgid "Click here "
+msgstr ""
+
+#: shared/class-api-person.php:314
+msgid " to send a quick note to Token of Trust so we can help resolve the issue."
+msgstr ""
+
+#: shared/shortcode-tot-reputation-status.php:184
+msgid " is required before you can proceed."
+msgstr ""
